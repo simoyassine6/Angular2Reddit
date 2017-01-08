@@ -19,8 +19,8 @@ export class ArticleComponent implements OnInit {
     this.votes = 10;
   }
 
-  voteUp() {
-    this.votes += 1;
+  voteUp(){
+    this.votes +=1;
   }
 
   voteDown() {
